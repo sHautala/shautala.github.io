@@ -1,0 +1,154 @@
+/* general */
+body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    background: rgb(233, 233, 233);
+    background: linear-gradient(0deg, rgba(233, 233, 233, 1) 0%, rgba(242, 242, 242, 1) 100%);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    margin: 10px;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a {
+    word-break: break-word;
+}
+
+img {
+    display: block;
+    width: 187.5px;
+    height: 232.75px;
+    margin-bottom: 15px;
+}
+
+/* classes */
+.Main {
+    text-align: left;
+    margin: auto auto 30px auto;
+    background-color: #CDE1F1;
+    border-radius: 20px;
+    width: 50vw;
+    padding: 25px;
+}
+
+.MainTitle {
+    margin: 30px;
+}
+
+.Qr {
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: 0px 0px 20px 0px;
+}
+
+.ImgLink {
+    display: block;
+    width: 1px;
+}
+
+.Title {
+    text-decoration: underline;
+}
+
+.Card {
+    font-family: 'Signika', sans-serif;
+    background-color: #f1ddcd;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 25px;
+    filter: drop-shadow(5px 8px 1px black);
+}
+
+.Card:hover {
+    background-color: #fcdab5;
+}
+
+.TechContainer {
+    background-color: rebeccapurple;
+}
+
+.TechTitle {
+    display: inline-block;
+    text-align: center;
+    background-color: #cfffcf;
+    border-radius: 30px;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 5px 15px 5px 15px;
+    margin: 3px;
+    user-select: none;
+}
+
+.Footer {
+    text-align: center;
+}
+
+.Footer i {
+    margin: 10px;
+}
+
+.Footer p {
+    margin-bottom: 0;
+}
+
+.Footer a {
+    color: inherit;
+}
+
+.Footer a:visited {
+    color: inherit;
+}
+
+.Footer i:hover {
+    color: white;
+}
+
+/* media queries */
+
+/* small screens */
+@media only screen and (min-width: 789px) and (max-width: 1024px) {
+    .Main {
+        width: 75vw;
+    }
+
+    img {
+        width: 125px;
+        height: 155.3px;
+    }
+}
+
+/* tablets */
+@media only screen and (min-width: 481px) and (max-width: 788px) {
+    .Main {
+        width: 75vw;
+    }
+}
+
+/* mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .Main {
+        width: 75vw;
+    }
+
+    .Card {
+        margin: 25px 5px 25px 5px;
+    }
+
+    .Qr {
+        width: 92px;
+        height: 92px;
+    }
+}
